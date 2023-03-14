@@ -62,12 +62,13 @@ button {
 
 .bordo-button{
     border-bottom: solid rgba(217, 217, 217, 0.4) 2px;
-    
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 /* fine stile bottone */
 
 .spazio-sinistra {
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 /* stile del contenuto a tendina */
