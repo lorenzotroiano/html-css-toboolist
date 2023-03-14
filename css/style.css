@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(217, 216, 216, 0.4);
+    background-color: rgba(217, 217, 217, 0.4);
     font-size: 20px;
 }
 
@@ -36,7 +36,7 @@ body {
     width: 70%;
     margin: auto;
     margin-top: 35px;
-    padding: 20px 30px;
+    margin-bottom: 35px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -59,13 +59,21 @@ button {
     color: rgb(155, 155, 155,0.8);
     border: 2px solid rgb(155,155,155,0.8);
 }
+
+.bordo-button{
+    border-bottom: solid rgba(217, 217, 217, 0.4) 2px;
+    
+}
 /* fine stile bottone */
 
-
+.spazio-sinistra {
+    padding-left: 20px;
+}
 
 /* stile del contenuto a tendina */
 .freccia-in-basso::after {
     content: "\25BC";
+    font-size: 10px;
 }
 
 h2 {
@@ -143,4 +151,6 @@ h2 {
 }
 
 
-
+.spazio-sinistra.sotto {
+    padding-bottom: 30px;
+}
